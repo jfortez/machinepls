@@ -23,8 +23,8 @@ The joke is the brief; the site is the delivery. It must be good enough that the
 
 ## Ground truth for the design
 
-- `design/landing-desktop.png` — the approved visual target (1280 px wide, one long page).
-- `design/landing-reference.html` — the same page as static HTML. Read it for exact values: palette, type sizes, spacing, the SVG landscape paths, every string. Do not ship this file; reimplement it as React components. It is reference only and must stay out of the build.
+- `docs/design-desktop.png` — the approved visual target (1280 px wide, one long page).
+- `docs/design-reference.html` — the same page as static HTML. Read it for exact values: palette, type sizes, spacing, the SVG landscape paths, every string. Do not ship this file; reimplement it as React components. It is reference only and must stay out of the build.
 
 The reference was designed at exactly 1280 px. Reproduce its proportions with fluid type and spacing, not fixed pixel copies of the whole page.
 
@@ -113,7 +113,7 @@ Static build in `dist/`, deployed to Cloudflare with Wrangler (`wrangler.jsonc`,
 ## Definition of done
 
 - `pnpm build`, `pnpm lint` and `pnpm test` all green, from a clean `node_modules`.
-- The page matches `design/landing-desktop.png` at 1280 px and degrades honestly at 390 px: single column, no horizontal scroll, the receipt still legible, the letter never truncated.
+- The page matches `docs/design-desktop.png` at 1280 px and degrades honestly at 390 px: single column, no horizontal scroll, the receipt still legible, the letter never truncated.
 - No console errors or warnings in the browser.
 - Every number on the page is measured, not invented.
 - `README.md` is short: what it is, how to run, how to deploy.

@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Single-page React site for `machinepls`. Read `SPEC.md` before changing anything; the visual ground truth is `design/landing-desktop.png` and `design/landing-reference.html` (reference only, never built).
+Single-page React site for `machinepls`. Read `SPEC.md` before changing anything; the visual ground truth is `docs/design-desktop.png` and `docs/design-reference.html` (reference only, never built).
 
 ## Rules
 
