@@ -1,7 +1,5 @@
 # machinepls
 
-**https://machinepls.jeanmcm.workers.dev**
-
 A single-page site built from a decade-old joke: someone asked a machine to make them a website, listed six demands, and signed off with "PS no bugs :)".
 
 ![The original request](docs/original-request.jpg)
