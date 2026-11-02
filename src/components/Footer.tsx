@@ -34,6 +34,14 @@ export function Footer() {
                 {section.label}
               </a>
             ))}
+          <a
+            href="https://github.com/jfortez/machinepls"
+            target="_blank"
+            rel="noreferrer"
+            className="transition-colors hover:text-ink"
+          >
+            Source ↗
+          </a>
         </div>
         <div>
           ps no bugs :) · vite + react + motion · static assets on cloudflare
